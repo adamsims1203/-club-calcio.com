@@ -26,7 +26,7 @@ RUN npm prune --production
 # Build the app
 FROM base as build
 
-ENV NODE_ENV=production
+ENV NODE_ENV=productionm 
 ENV PORT="8080"
 
 RUN mkdir /app
