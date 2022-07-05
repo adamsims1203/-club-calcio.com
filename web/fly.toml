@@ -1,4 +1,4 @@
-# fly.toml file generated for calcio on 2022-07-05T20:06:27+01:00
+# fly.toml file generated for calcio on 2022-07-05T22:18:07+01:00
 
 app = "calcio"
 kill_signal = "SIGINT"
@@ -6,6 +6,7 @@ kill_timeout = 5
 processes = []
 
 [env]
+  PORT = "8080"
 
 [experimental]
   allowed_public_ports = []
