@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 576 288" style="enable-background:new 0 0 576 288;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{fill:url(#SVGID_3_);}
+	.st3{fill:url(#SVGID_4_);}
+	.st4{fill:url(#SVGID_5_);}
+	.st5{fill:url(#SVGID_6_);}
+	.st6{fill:url(#SVGID_7_);}
+	.st7{fill:url(#SVGID_8_);}
+	.st8{fill:url(#SVGID_9_);}
+	.st9{fill:url(#SVGID_10_);}
+	.st10{fill:url(#SVGID_11_);}
+	.st11{fill:url(#SVGID_12_);}
+</style>
+<g id="Layer_2" class="st0">
+</g>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="0" width="576" height="288"/>
+	</defs>
+	<use xlink:href="#SVGID_1_"  style="overflow:visible;fill:#FFFFFF;"/>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st1">
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="72" y1="144" x2="72" y2="-144">
+			<stop  offset="0.3548" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.5714" style="stop-color:#FBFBF6"/>
+			<stop  offset="0.9305" style="stop-color:#F1F1DC"/>
+			<stop  offset="0.9462" style="stop-color:#F1F1DB"/>
+		</linearGradient>
+		<polygon class="st2" points="0,144 0,0 144,-144 144,0 		"/>
+		
+			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="-384" y1="144" x2="-384" y2="-144" gradientTransform="matrix(-1 0 0 1 120 0)">
+			<stop  offset="0.3548" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.5714" style="stop-color:#FBFBF6"/>
+			<stop  offset="0.9305" style="stop-color:#F1F1DC"/>
+			<stop  offset="0.9462" style="stop-color:#F1F1DB"/>
+		</linearGradient>
+		<polygon class="st3" points="576,144 576,0 432,-144 432,0 		"/>
+		<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="504" y1="432" x2="504" y2="144">
+			<stop  offset="0.3548" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.5714" style="stop-color:#FBFBF6"/>
+			<stop  offset="0.9305" style="stop-color:#F1F1DC"/>
+			<stop  offset="0.9462" style="stop-color:#F1F1DB"/>
+		</linearGradient>
+		<polygon class="st4" points="432,144 432,288 576,432 576,288 		"/>
+		
+			<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="912" y1="432" x2="912" y2="144" gradientTransform="matrix(-1 0 0 1 984 0)">
+			<stop  offset="0.3548" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.5714" style="stop-color:#FBFBF6"/>
+			<stop  offset="0.9305" style="stop-color:#F1F1DC"/>
+			<stop  offset="0.9462" style="stop-color:#F1F1DB"/>
+		</linearGradient>
+		<polygon class="st5" points="144,144 144,288 0,432 0,288 		"/>
+		<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="576" y1="288" x2="576" y2="144">
+			<stop  offset="0.3548" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.5714" style="stop-color:#FBFBF6"/>
+			<stop  offset="0.9305" style="stop-color:#F1F1DC"/>
+			<stop  offset="0.9462" style="stop-color:#F1F1DB"/>
+		</linearGradient>
+		<polygon class="st6" points="432,144 576,144 720,288 576,288 		"/>
+		
+			<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="1128" y1="288" x2="1128" y2="144" gradientTransform="matrix(-1 0 0 1 1128 0)">
+			<stop  offset="0.3548" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.5714" style="stop-color:#FBFBF6"/>
+			<stop  offset="0.9305" style="stop-color:#F1F1DC"/>
+			<stop  offset="0.9462" style="stop-color:#F1F1DB"/>
+		</linearGradient>
+		<polygon class="st7" points="144,144 0,144 -144,288 0,288 		"/>
+		<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="432" y1="144" x2="432" y2="0">
+			<stop  offset="0.3548" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.5714" style="stop-color:#FBFBF6"/>
+			<stop  offset="0.9305" style="stop-color:#F1F1DC"/>
+			<stop  offset="0.9462" style="stop-color:#F1F1DB"/>
+		</linearGradient>
+		<polygon class="st8" points="288,0 432,0 576,144 432,144 		"/>
+		
+			<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="696" y1="144" x2="696" y2="3.860696e-007" gradientTransform="matrix(-1 0 0 1 840 0)">
+			<stop  offset="0.3548" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.5714" style="stop-color:#FBFBF6"/>
+			<stop  offset="0.9305" style="stop-color:#F1F1DC"/>
+			<stop  offset="0.9462" style="stop-color:#F1F1DB"/>
+		</linearGradient>
+		<polygon class="st9" points="288,0 144,0 0,144 144,144 		"/>
+		<linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="288" y1="288" x2="288" y2="9.094947e-013">
+			<stop  offset="0.3548" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.5714" style="stop-color:#FBFBF6"/>
+			<stop  offset="0.9305" style="stop-color:#F1F1DC"/>
+			<stop  offset="0.9462" style="stop-color:#F1F1DB"/>
+		</linearGradient>
+		<polygon class="st10" points="144,288 144,144 288,0 432,144 432,288 		"/>
+		<linearGradient id="SVGID_12_" gradientUnits="userSpaceOnUse" x1="288" y1="288" x2="288" y2="144">
+			<stop  offset="0.3548" style="stop-color:#FFFFFF"/>
+			<stop  offset="0.5714" style="stop-color:#FBFBF6"/>
+			<stop  offset="0.9305" style="stop-color:#F1F1DC"/>
+			<stop  offset="0.9462" style="stop-color:#F1F1DB"/>
+		</linearGradient>
+		<polygon class="st11" points="144,288 288,144 432,288 		"/>
+	</g>
+</g>
+</svg>

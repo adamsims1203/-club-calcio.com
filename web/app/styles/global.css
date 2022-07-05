@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+:root {
+  --calcio-red: #da2b2a;
+  --calcio-green: #24a358;
+  --calcio-white: #f8f8ed;
+  --calcio-black: #1c1c1c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Chivo";
+  background: url("/assets/pattern-bg.svg");
+  background-size: 400px;
+  background-attachment: fixed;
+  background-position: center 60px;
+}
+
+.home-logo {
+  margin: 0 auto;
+  margin-bottom: 2em;
+  width: 280px;
+}
+
+.home-logo:hover {
+  filter: drop-shadow(2px 2px 0 var(--calcio-red));
+}
