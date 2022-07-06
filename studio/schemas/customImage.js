@@ -11,7 +11,7 @@ const customImageComponent = ({ value }) => {
       style={{
         width: "100%",
       }}
-      alt=" "
+      alt=""
     />
   );
 };

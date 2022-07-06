@@ -4,22 +4,16 @@ on:
     paths:
       - "studio/**"
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
+  sanity-deploy:
+    runs-on: ubuntu-18.04
     defaults:
       run:
         working-directory: studio/
+    name: Deploy Sanity
     steps:
       - uses: actions/checkout@v2
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v3
+      - uses: sanity-io/github-action-sanity@v0.2-alpha
+        env:
+          SANITY_AUTH_TOKEN: ${{ secrets.SANITY_AUTH_TOKEN }}
         with:
-          node-version: 14
-      - name: Install dependencies
-        run: |
-          yarn
-      - name: Deploy Sanity
-        run: |
-          set -e
-          # Make sure to add a secret for SANITY_AUTH_TOKEN
-          SANITY_AUTH_TOKEN="${{ secrets.SANITY_AUTH_TOKEN }}" yarn sanity deploy
+          args: deploy
