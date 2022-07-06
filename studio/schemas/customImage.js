@@ -1,6 +1,8 @@
 import React from "react";
 
 const customImageComponent = ({ value }) => {
+  if (value === null) return <p>No image</p>;
+
   const { imageUrl } = value;
 
   return (
