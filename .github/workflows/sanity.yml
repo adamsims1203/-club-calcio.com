@@ -3,17 +3,17 @@ on:
   push:
     paths:
       - "studio/**"
+env:
+  SANITY_AUTH_TOKEN: ${{ secrets.SANITY_AUTH_TOKEN }}
 jobs:
-  sanity-deploy:
+  deploy:
+    name: Deploy Sanity
     runs-on: ubuntu-18.04
     defaults:
       run:
         working-directory: studio/
-    name: Deploy Sanity
     steps:
       - uses: actions/checkout@v2
       - uses: sanity-io/github-action-sanity@v0.2-alpha
-        env:
-          SANITY_AUTH_TOKEN: ${{ secrets.SANITY_AUTH_TOKEN }}
         with:
           args: deploy
