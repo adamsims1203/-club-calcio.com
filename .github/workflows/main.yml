@@ -6,7 +6,7 @@ jobs:
   deploy:
     name: Deploy app
     runs-on: ubuntu-latest
-    defalts:
+    defaults:
       run:
         working-directory: web/
     steps:
