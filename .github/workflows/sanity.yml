@@ -6,6 +6,9 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+     defaults:
+      run:
+        working-directory: studio/
     steps:
       - uses: actions/checkout@v2
       - name: Setup Node.js environment
