@@ -6,7 +6,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-     defaults:
+    defaults:
       run:
         working-directory: studio/
     steps:
