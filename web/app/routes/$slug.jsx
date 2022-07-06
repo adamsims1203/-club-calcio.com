@@ -18,6 +18,8 @@ export const loader = async ({ request, params }) => {
     requestUrl?.searchParams?.get("preview") ===
     process.env.SANITY_PREVIEW_SECRET;
 
+  const previewSecret = process.env.SANITY_PREVIEW_SECRET;
+
   const query = `*[_type == "post" && slug.current == $slug]{
   _id,
   title,
@@ -42,15 +44,20 @@ export const loader = async ({ request, params }) => {
     preview,
     query: preview ? query : null,
     queryParams: preview ? queryParams : null,
+    previewSecret,
   });
 };
 
 export const PostRoute = () => {
-  let { initialData, preview, query, queryParams } = useLoaderData();
+  let { initialData, preview, query, queryParams, previewSecret } =
+    useLoaderData();
   const [data, setData] = useState(initialData);
   const post = filterDataToSingleItem(data, preview);
 
   const { title, publishedAt, body, author } = post;
+
+  console.log(previewSecret);
+  console.log(preview);
 
   return (
     <>

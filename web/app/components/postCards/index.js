@@ -17,7 +17,7 @@ export const MainPost = ({ post }) => {
         />
       </a>
       <a href={slug.current}>
-        <h2>{title}</h2>
+        <h2 className="post-card-title">{title}</h2>
       </a>
       <p>{excerpt}</p>
       <a href={slug.current} className="post-link-button">
@@ -42,7 +42,7 @@ export const SidePost = ({ post }) => {
       </div>
       <div className="post-card-side-info">
         <a href={slug.current}>
-          <h4>{title}</h4>
+          <h4 className="post-card-title">{title}</h4>
         </a>
         <a href={slug.current} className="post-link-button">
           READ MORE

@@ -12,11 +12,7 @@ export function resolveProductionUrl(doc) {
 
   const url = new URL(baseUrl);
   url.pathname = slug;
-  url.searchParams.set(
-    `preview`,
-    `Z%Z7h63x*%&6#@#QDa
-  `
-  );
+  url.searchParams.set(`preview`, `9M5jkVuQ4DqS37Npq6`);
 
   return url.toString();
 }
