@@ -11,19 +11,23 @@ article {
   margin-bottom: 3em;
 }
 
-@media only screen and (max-width: 832px) {
-  article {
-    margin: 1em auto;
-    width: calc(100% - 2em);
-  }
-}
-
 article h1 {
   font-size: 2.6em;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 832px) {
+  article {
+    margin: 1em auto;
+    width: calc(100% - 2em);
+  }
+
+  article h1 {
+    font-size: 2.2em;
+  }
 }
 
 article p {

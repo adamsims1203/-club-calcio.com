@@ -25,6 +25,12 @@ nav img {
   height: 100%;
 }
 
+@media only screen and (max-width: calc(1120px + 2em)) {
+  .nav-wrapper {
+    width: 100%;
+  }
+}
+
 nav ul {
   margin: 0;
   padding: 0;
