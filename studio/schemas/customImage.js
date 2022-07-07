@@ -1,4 +1,5 @@
 import React from "react";
+import { FaYoutube, FaTwitter, FaFileImage } from "react-icons/fa";
 
 const customImageComponent = ({ value }) => {
   if (value === null) return <p>No image</p>;
@@ -20,6 +21,7 @@ export default {
   title: "Image",
   name: "customImage",
   type: "image",
+  icon: FaFileImage,
   options: {
     hotspot: true, // <-- Defaults to false
   },

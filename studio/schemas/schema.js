@@ -10,6 +10,7 @@ import category from "./category";
 import post from "./post";
 import author from "./author";
 import youtube from "./youtube";
+import tweet from "./tweet";
 import customImage from "./customImage";
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -28,6 +29,7 @@ export default createSchema({
     // { type: 'typename' } in other document schemas
     blockContent,
     youtube,
+    tweet,
     customImage,
   ]),
 });

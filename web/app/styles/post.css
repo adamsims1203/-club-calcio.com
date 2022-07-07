@@ -102,3 +102,7 @@ article .youtube-video {
   background-color: var(--calcio-green);
   color: var(--calcio-white);
 }
+
+.twitter-tweet {
+  margin: 0 auto;
+}

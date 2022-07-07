@@ -1,13 +1,5 @@
-/**
- * This is the schema definition for the rich text fields used for
- * for this blog studio. When you import it in schemas.js it can be
- * reused in other parts of the studio with:
- *  {
- *    name: 'someName',
- *    title: 'Some title',
- *    type: 'blockContent'
- *  }
- */
+import { FaYoutube, FaTwitter, FaFileImage } from "react-icons/fa";
+
 export default {
   title: "Block Content",
   name: "blockContent",
@@ -57,10 +49,11 @@ export default {
     // You can add additional types here. Note that you can't use
     // primitive types such as 'string' and 'number' in the same array
     // as a block type.
-
     {
       type: "customImage",
+      icon: FaFileImage,
     },
-    { type: "youtube" },
+    { type: "youtube", icon: FaYoutube },
+    { type: "tweet", icon: FaTwitter },
   ],
 };

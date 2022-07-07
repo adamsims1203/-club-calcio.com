@@ -1,6 +1,6 @@
 import S from "@sanity/desk-tool/structure-builder";
 import Iframe from "sanity-plugin-iframe-pane";
-
+import { FaClipboardList, FaUser, FaTag } from "react-icons/fa";
 import { resolveProductionUrl } from "./resolveProductionUrl";
 
 // Here we declare which view panes show up for which schema types
@@ -24,7 +24,7 @@ export default () =>
   S.list()
     .title("Content")
     .items([
-      S.documentTypeListItem("post").title("Post"),
-      S.documentTypeListItem("author").title("Author"),
-      S.documentTypeListItem("category").title("Category"),
+      S.documentTypeListItem("post").title("Post").icon(FaClipboardList),
+      S.documentTypeListItem("author").title("Author").icon(FaUser),
+      S.documentTypeListItem("category").title("Category").icon(FaTag),
     ]);
